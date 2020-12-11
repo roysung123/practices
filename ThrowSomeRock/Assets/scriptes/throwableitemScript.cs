@@ -63,7 +63,7 @@ public class throwableitemScript : MonoBehaviour
                     velocity += Physics.gravity*time;
                     pos += ( (camera_lookat.transform.forward*2 + Vector3.up)*10 + velocity) * time;
                 }
-                GetComponent<LineRenderer>().SetVertexCount(poslist.Count);
+                GetComponent<LineRenderer>().positionCount = poslist.Count;
                 for (int i = 0; i < poslist.Count; i++)
                 {
                     GetComponent<LineRenderer>().SetPosition(i, poslist[i]);
