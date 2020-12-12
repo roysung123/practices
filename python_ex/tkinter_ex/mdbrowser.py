@@ -117,7 +117,7 @@ for i in movlist:
         im=Image.open(imaddr[0])
     except IndexError:
         print(i)
-        imaddr = glob.glob(r".\poorface.jpg")#無封面
+        imaddr = glob.glob(r".\cover\poorface.jpg")#無封面
         im=Image.open(imaddr[0])
     w, h = im.size
     orimglist.append(ImageTk.PhotoImage(im))
