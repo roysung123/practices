@@ -92,7 +92,7 @@ public class playerMove : MonoBehaviour
         {
             Debug.DrawLine(transform.position, hits[2].transform.position, Color.red, 0.1f, true);
             nestitem = hits[2].transform.gameObject;
-            Debug.Log(nestitem.ToString());
+            //Debug.Log(nestitem.ToString());
         }
         else
         {

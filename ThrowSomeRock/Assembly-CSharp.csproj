@@ -65,6 +65,7 @@
     <Compile Include="Assets\scriptes\HitPointDrawerScript.cs" />
     <Compile Include="Assets\scriptes\cameraFollow.cs" />
     <Compile Include="Assets\scriptes\damageSys.cs" />
+    <Compile Include="Assets\scriptes\followCamera.cs" />
     <Compile Include="Assets\scriptes\health_bar_contral.cs" />
     <Compile Include="Assets\scriptes\mainSysScript.cs" />
     <Compile Include="Assets\scriptes\nearest_item.cs" />

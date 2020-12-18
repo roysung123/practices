@@ -5,8 +5,10 @@ using UnityEngine;
 public class mainSysScript : MonoBehaviour
 {
     public GameObject ti;
+    public GameObject enemies;
 
     private GameObject map;
+    private Vector2 cirpos;
     
     // Start is called before the first frame update
     void Start()
@@ -20,10 +22,16 @@ public class mainSysScript : MonoBehaviour
     {
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("ti");
+        if (gos.Length < 25)
+        {
+            cirpos = Random.insideUnitCircle * map.transform.position.x / 2 + new Vector2(map.transform.position.x, map.transform.position.z);
+            Instantiate(ti, new Vector3(cirpos.x, 2, cirpos.y), Random.rotation);
+        }
+        gos = GameObject.FindGameObjectsWithTag("enemies"); ;
         if (gos.Length < 1)
         {
-            Vector2 cirpos = Random.insideUnitCircle * map.transform.position.x / 2 + new Vector2(map.transform.position.x, map.transform.position.z);
-            Instantiate(ti, new Vector3(cirpos.x, 2, cirpos.y), Random.rotation);
+            cirpos = Random.insideUnitCircle * map.transform.position.x / 2 + new Vector2(map.transform.position.x, map.transform.position.z);
+            Instantiate(enemies, new Vector3(cirpos.x, 2, cirpos.y), new Quaternion(0, 0, 0, 0));
         }
     }
 }

@@ -31,7 +31,6 @@ public class throwableitemScript : MonoBehaviour
         if (beencarry_flag)
         {
             //transform.SetPositionAndRotation(new Vector3(py.transform.position.x, 2, py.transform.position.z), new Quaternion(0, 0, 0, 0));
-            angled += (angularSpeed * Time.deltaTime) % 360;//累加角度
             float posX = aroundRadius * Mathf.Sin(angled * Mathf.Deg2Rad);//計算x位置
             float posZ = aroundRadius * Mathf.Cos(angled * Mathf.Deg2Rad);//計算y位置
             transform.position = new Vector3(posX, 0, posZ) + py.transform.position + new Vector3(0,1,0);
@@ -78,6 +77,7 @@ public class throwableitemScript : MonoBehaviour
             }
             else
             {
+                angled += (angularSpeed * Time.deltaTime) % 360;//累加角度
                 GetComponent<LineRenderer>().enabled = false;
             }
         }
