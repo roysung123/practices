@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 141
+  controlID: 59
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 55
+  controlID: 60
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 81
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 50.32847, y: 4.967086, z: 36.848156}
+    m_Target: {x: 11.733472, y: 1.5502721, z: 51.882324}
     speed: 2
-    m_Value: {x: 50.32847, y: 4.967086, z: 36.848156}
+    m_Value: {x: 11.733472, y: 1.5502721, z: 51.882324}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -474,13 +474,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.062354993, y: 0.008982361, z: -0.0005612, w: 0.9980138}
+    m_Target: {x: 0.07890428, y: -0.67296976, z: 0.07255481, w: 0.7318637}
     speed: 2
-    m_Value: {x: 0.06235497, y: 0.0089823585, z: -0.00056119985, w: 0.99801344}
+    m_Value: {x: 0.07890417, y: -0.6729688, z: 0.07255471, w: 0.7318626}
   m_Size:
-    m_Target: 3.938285
+    m_Target: 60.171383
     speed: 2
-    m_Value: 3.938285
+    m_Value: 60.171383
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -756,7 +756,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 525}
+    m_ScrollPosition: {x: 0, y: 612}
     m_GridSize: 58
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 148
@@ -797,7 +797,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 100
+  m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52

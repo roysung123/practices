@@ -22,7 +22,7 @@ public class mainSysScript : MonoBehaviour
     {
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("ti");
-        if (gos.Length < 25)
+        if (gos.Length < 15)
         {
             cirpos = Random.insideUnitCircle * map.transform.position.x / 2 + new Vector2(map.transform.position.x, map.transform.position.z);
             Instantiate(ti, new Vector3(cirpos.x, 2, cirpos.y), Random.rotation);

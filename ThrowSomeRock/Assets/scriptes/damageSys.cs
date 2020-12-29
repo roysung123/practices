@@ -23,16 +23,11 @@ public class damageSys : MonoBehaviour
         //Debug.Log(health_point);
     }
 
-    void OnCollisionEnter(Collision col)
+    public void Get_Damage(int d)
     {
-        if(col.gameObject.tag == "ti")
-        {
-            int damage = (int)col.gameObject.GetComponent<throwableitemScript>().mspower;
-            if (damage > 5)
-            {
-                health_point -= damage;
-                hb.SetHealth(health_point);
-            }
-        }
+        health_point -= d;
+        hb.SetHealth(health_point);
     }
+
+    
 }

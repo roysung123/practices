@@ -376,8 +376,10 @@ GameObject:
   - component: {fileID: 3560246698284209611}
   - component: {fileID: 3560246698284209610}
   - component: {fileID: 3560246698284209462}
+  - component: {fileID: 4599610667894383434}
+  - component: {fileID: -8111238912044813893}
   m_Layer: 0
-  m_Name: Capsule 1
+  m_Name: Capsule
   m_TagString: enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,5 +473,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d48d981fe250141bc13480adc9343b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health_point: 30
+  health_point: 100
   hb: {fileID: 3560246697911875590}
+--- !u!114 &4599610667894383434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3560246698284209609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b2233fbcfc8149b83b1ab2ec4c427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &-8111238912044813893
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3560246698284209609}
+  serializedVersion: 2
+  m_Mass: 0.5
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
